@@ -25,7 +25,7 @@ jobs:
       run: mkdir artifacts
 
     - name: Copy JAR files
-      run: cp target/*.jar artifacts
+      run: cp target/*.war artifacts
 
     - name: List artifacts
       run: ls artifacts
