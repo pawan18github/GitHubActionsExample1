@@ -26,7 +26,7 @@ jobs:
            cd artifacts && ls
 
     - name: Save artifact
-      uses: action/upoad-artifact@v2
+      uses: actions/upoad-artifact@v2
       with:
         name : github-actions-artifact
         path : artifacts
